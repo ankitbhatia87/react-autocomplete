@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>Please enter value between 1-100</p>
       <InputField onInputValueUpdate={inputValueUpdateHandler} isLoadingClass={isLoadingClass} />
       {suggestions}
     </div>
